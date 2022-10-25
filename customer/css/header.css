@@ -1,0 +1,46 @@
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__name {
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+}
+
+.nav-item .nav-link {
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+
+}
+
+.nav-item .nav-link a:hover {
+    color: #f55016 !important;
+}
+
+.nav-link .fa-shopping-cart:hover {
+    background-color: #F2C94C ;
+}
+
+.badge {
+    background-color: #F2C94C ;
+}
+
+.navbar-toggler-icon {
+    color: black !important;
+}
+
+.navbar-toggler {
+    border-color: #F2C94C !important;
+}

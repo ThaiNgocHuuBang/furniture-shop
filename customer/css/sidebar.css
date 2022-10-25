@@ -1,0 +1,9 @@
+.list-group .list-group-item{
+    color: black;
+    margin-right: 0;
+    border-radius:0 ;
+}
+.list-group .list-group-item:hover{
+    background-color: #F2C94C !important;
+    color: black !important;
+}

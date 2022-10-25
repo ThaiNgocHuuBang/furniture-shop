@@ -1,0 +1,62 @@
+.list-group .list-group-item{
+    color: black;
+}
+.list-group .list-group-item:hover{
+    background-color: #F2C94C !important;
+    color: black !important;
+}
+.input__search:focus{
+    border-color: #F2C94C !important;
+    box-shadow: none !important;
+}
+.btn__submit{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black !important;
+    border-radius: 6px;
+}
+.btn__submit:hover{
+    background-color: #F2C94C;
+}
+.btn__card {
+    font-size: 16px;
+    background-color: #efefef;
+    border: 1px solid #e8e8e8;
+    color: black;
+
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+
+}
+.btn__card:hover {
+    background-color: #F2C94C;
+    color: black;
+}
+
+.btn__detail {
+    color: white;
+    background-color: #0E3A5A;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.btn__detail:hover {
+    background-color: #195F93;
+    color: white;
+}
+.pagination{
+    border-color: black !important;
+    
+}
+.page-item .page-link{
+    color:  black !important;
+}
+.page-item.active .page-link{
+    background-color: #F2C94C !important ;
+    border-color: black !important;
+    box-shadow: none !important;
+   
+}
+.page-item .page-link:focus {
+    box-shadow: none;
+}

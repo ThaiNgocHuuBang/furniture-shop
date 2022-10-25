@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.list-group {
+  margin-left: -10px;
+}
+
+.col-md-10>h1 {
+  font-size: 120px;
+}
+
+#fonts {
+  font-size: 16px;
+}
+
+#border-less {
+  border: none;
+}
+.form-control{
+  background-color: transparent !important;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #F2C94C !important;
+  
+
+}
+.btn__yellow{
+  background-color: #febe16;
+  color: black;
+  font-size: 16px;
+  background-color: #efefef;
+  border: 1px solid #e8e8e8;
+  text-transform: inherit;
+  border-radius: 6px;
+}
+.btn__yellow:hover{
+  background-color: #febe16;
+  box-shadow: none;
+}
+
+.btn__pink{
+  background-color: #fb6976;
+  color: black;
+  font-size: 16px;
+  background-color: #efefef;
+  border: 1px solid #e8e8e8;
+  text-transform: inherit;
+}
+.btn__pink:hover{
+  background-color: #fb6976;
+  box-shadow: none;
+}
+
+.btn__or{
+  background-color: #f55016;
+  color: black;
+  font-size: 16px;
+  background-color: #efefef;
+  border: 1px solid #e8e8e8;
+  text-transform: inherit;
+}
+.btn__or:hover{
+  background-color: #f55016;
+  box-shadow: none;
+}
+
+.btn__color{
+  font-size: 16px;
+  background-color: #efefef;
+  border: 1px solid #e8e8e8;
+  color: #323334;
+ text-transform: inherit;
+
+}
+
+.btn__color:hover {
+  background-color: #F2C94C;
+  color: #323334;
+  box-shadow: none;
+}
+.text__yellow{
+  color: #F2C94C !important;
+}
+.table th, .table td {
+  vertical-align: middle !important;
+}
+
+.table .thead-light th {
+  font-weight: 600;
+  font-size: 16px;
+  color: black
+}
+.table td{
+  font-weight: 400;
+  font-size: 14px;
+  color: black
+}
+
+.list-group .list-group-item{
+  color: black;
+  margin-right: 0;
+  border-radius:0 ;
+}
+.list-group .list-group-item a{
+  color: black;
+}
+.list-group .list-group-item:hover{
+  background-color: #F2C94C !important;
+  color: black !important;
+}
+
+.pagination{
+  border-color: #323334 !important;
+  
+}
+.page-item .page-link{
+  color:  #323334 !important;
+}
+.page-item.active .page-link{
+  background-color: #F2C94C !important ;
+  border-color: #323334 !important;
+  box-shadow: none !important;
+ 
+}
+.page-item .page-link:focus {
+  box-shadow: none;
+}

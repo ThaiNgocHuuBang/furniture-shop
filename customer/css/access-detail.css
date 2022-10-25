@@ -1,0 +1,17 @@
+.form-control:focus  {
+    box-shadow: none !important;
+    border-color: #F2C94C !important;
+
+}
+.btn__update{
+    font-size: 16px;
+    background-color: #efefef;
+    border: 1px solid #e8e8e8 !important;
+    color: #323334;
+    border-radius: 6px;
+ 
+}
+.btn__update:hover {
+    background-color: #F2C94C ;
+    color: #323334 ;
+}

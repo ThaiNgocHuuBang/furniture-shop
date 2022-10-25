@@ -1,0 +1,65 @@
+.product__name{
+    font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+
+color: black;
+}
+.product__price{
+    font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: black;
+}
+.product__detail{
+    font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.form-control:focus  {
+    box-shadow: none !important;
+    border-color: #F2C94C !important;
+
+}
+.btn__update{
+    font-size: 16px;
+    background-color: #efefef;
+    border: 1px solid #e8e8e8 !important;
+    color: black;
+    border-radius: 6px;
+ 
+}
+.btn__update:hover {
+    background-color: #F2C94C ;
+    color: black ;
+}
+
+.btn__card {
+    font-size: 16px;
+    background-color: #efefef;
+    border: 1px solid #e8e8e8;
+    color: black;
+
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+
+}
+.btn__card:hover {
+    background-color: #F2C94C;
+    color: black;
+}
+
+.btn__detail {
+    color: white;
+    background-color: #0E3A5A;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.btn__detail:hover {
+    background-color: #195F93;
+    color: white;
+}
