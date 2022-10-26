@@ -115,7 +115,7 @@
                     
                     </table>
 
-                   <input type="submit" name="update" class="btn btn__pink float-right" value="update">
+                   <input type="submit" name="update" class="btn btn__or float-right" value="Update">
 
                   </form>
             </div>

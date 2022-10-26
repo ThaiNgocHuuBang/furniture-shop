@@ -43,14 +43,14 @@ if(isset($_SESSION['email'])){
 
             <div class="carousel-inner">
                <div class="carousel-item active">
-                 <img src="img/cupboard.jpg" class="d-block w-100">
+                 <img src="/img/home/banner3.jpg" class="d-block w-100">
                 
                </div>
                <div class="carousel-item">
-                  <img src="img/couch.jpg" class="d-block w-100">
+                  <img src="/img/home/banner4.jpg" class="d-block w-100">
                </div>
                <div class="carousel-item">
-                  <img src="img/bedset_slide.jpg" class="d-block w-100">
+                  <img src="/img/home/banner5.jpg" class="d-block w-100">
                </div>
             
                <!---Controlers-->
@@ -70,8 +70,8 @@ if(isset($_SESSION['email'])){
        
         
       <!--Latest product---->
-      <section >
-        <div class="container pt-5 pb-5">
+      <section class="bg__gray">
+        <div class="container pt-5 pb-5 ">
         <div >
           <?php 
           if(isset($msg)){
@@ -111,10 +111,10 @@ if(isset($_SESSION['email'])){
                              <div class="row">
                                   <div class="col-md-12 col-sm-12 col-12 text-center">
                                  
-                                  <a href="index.php?cart_id=<?php echo $pid;?>" type="submit" onclick="a()" class="btn btn__yellow mr-3 py-2">
+                                  <a href="index.php?cart_id=<?php echo $pid;?>" type="submit" onclick="a()" class="btn btn__white mr-3 ">
                                       <i class="far fa-shopping-cart"></i>
                                   </a>
-                                  <a href="product-detail.php?product_id=<?php echo $pid;?>" class="btn  btn__pink" >
+                                  <a href="product-detail.php?product_id=<?php echo $pid;?>" class="btn  btn__or" >
                                        <i class="far fa-info-circle"></i> View Details
                                   </a>
 

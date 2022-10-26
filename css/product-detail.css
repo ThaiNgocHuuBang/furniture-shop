@@ -21,7 +21,7 @@ color: #000000;
 }
 .form-control:focus  {
     box-shadow: none !important;
-    border-color: #F2C94C !important;
+    border-color: #f36f21 !important;
 
 }
 .btn__update{
@@ -33,7 +33,7 @@ color: #000000;
  
 }
 .btn__update:hover {
-    background-color: #F2C94C ;
+    background-color: #f36f21 ;
     color: black ;
 }
 
@@ -48,7 +48,7 @@ color: #000000;
 
 }
 .btn__card:hover {
-    background-color: #F2C94C;
+    background-color: #f36f21;
     color: black;
 }
 

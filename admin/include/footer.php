@@ -3,7 +3,7 @@
       <footer class="sticky-footer mt-5">
         <div class="container my-auto py-3">
           <div class="copyright text-center my-auto text-muted">
-            <p>SEVEN SHOP</p>
+            <p>Furniture Shop</p>
             <p class="mb-0">Together with you to beautify the house!</p>       
           </div>
         </div>

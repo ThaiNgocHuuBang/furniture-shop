@@ -58,7 +58,7 @@ if(!isset($_SESSION['email'])){
                      </div>
                    </div>
                     <div class="col-lg-4">
-                    <input type="submit" name="submit" class="btn btn__color" value="Add Cat" name="category">
+                    <input type="submit" name="submit" class="btn btn__or" value="Add Cat" name="category">
                        </div><br/>
                        
                        </div>
@@ -111,9 +111,9 @@ if(!isset($_SESSION['email'])){
                         <td><i class="text-primary <?php echo 'fad '.$font_awesome;?>"></i></td>
                         <td><?php echo $category;?></td>
                         <td class="text-center">
-                        <a  href="editcat.php?edit=<?php echo $id; ?>"><button type="button" class="btn btn-primary">Edit</button>
+                        <a  href="editcat.php?edit=<?php echo $id; ?>"><button type="button" class="btn btn__blue">Edit</button>
                             </a>
-                            <a href="category.php?del=<?php echo $id;?>"><button class='ml-2 btn btn-danger' value='Delete'>Delete</button></a>
+                            <a href="category.php?del=<?php echo $id;?>"><button class='ml-2 btn btn__or' value='Delete'>Delete</button></a>
                         </td>
                      </tr>
                       <?php

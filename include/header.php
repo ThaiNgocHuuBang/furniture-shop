@@ -10,7 +10,6 @@ include_once('include/dbcon.php');?>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet" >
     <link href="css/bootstrap.css.map" rel="stylesheet">
-    <link href="img/favicon.png" rel="icon" >
     <link href="css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/header.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -33,10 +32,12 @@ include_once('include/dbcon.php');?>
        <!--header ---> 
              <nav class="navbar navbar-expand-md fixed-top">
                <a href="index.php" class="navbar-brand"> 
-                   <img src="/img/logo-store.jpg" width="60px" height="60px"> <sapn class="navbar__name ml-2" style="color: #f55016">SEVEN SHOP</sapn>
+                   <img src="/img/logo-store.jpg" width="60px" height="60px"> <sapn class="navbar__name ml-2" style="color: #f36f21">Furniture Shop</sapn>
                </a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapisblenav" aria-controls="collapsiblenav">
-                 <span class="navbar-toggler-icon"></span>
+                 <span class="navbar-toggler-icon ">
+                  <i class="far fa-menu"></i>
+                 </span>
                </button>
                <div class="collapse navbar-collapse" id="collapisblenav">
                  <ul class="navbar-nav ml-auto">
@@ -48,7 +49,7 @@ include_once('include/dbcon.php');?>
                     <?php if(!isset($_SESSION['email'])){                                                 
                      ?> 
                     <li class="nav-item"><a class="nav-link" href="sign-in.php"> Login</a></li>
-                    <li class="nav-item mr-4 "><a class="nav-link " href="register.php"><button type="button" class="btn btn__yellow "> Register</button></a></li>
+                    <li class="nav-item mr-4 "><a class="nav-link " href="register.php"><button type="button" class="btn btn__or" style="border-radius:6px"> Register</button></a></li>
                     <?php  
                                 }
                     

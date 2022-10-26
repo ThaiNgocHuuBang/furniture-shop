@@ -6,7 +6,7 @@
         <div class="container mt-3">
           <div class="row">
             <div class="col-md-6">
-              <h3>SEVEN SHOP</h3>
+              <h3>Furniture Shop</h3>
               <hr>
               <p>We always listen to you!</p>
             </div>
@@ -25,7 +25,7 @@
                     </div>
 
                       <div class="form-group text-center mt-4">
-                        <input type="submit" name="sigin" class="btn btn__yellow" value="Send">
+                        <input type="submit" name="sigin" class="btn btn__or btn-block" value="Send">
                       </div>
 
                   </form>

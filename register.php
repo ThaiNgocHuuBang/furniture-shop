@@ -115,7 +115,7 @@
                    </div>
 
                       <div class="form-group text-center mt-4">
-                        <input type="submit" name="register" class="btn btn_signin" value="Register">
+                        <input type="submit" name="register" class="btn btn__or" value="Register">
                       </div>
 
                       <div class="text-center mt-4"> Already a Member? <a href="sign-in.php" class="textYellow"> Sign in </a></div>

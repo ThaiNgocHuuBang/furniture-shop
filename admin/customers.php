@@ -3,7 +3,7 @@ if(!isset($_SESSION['email'])){
   header('location: signin.php');
 }
 ?>
-<div class="container-fluid mt-2">
+<div class="container-fluid mt-2" style="margin-bottom: 125px;">
      <div class="row">
            <div class="col-md-3 col-lg-3">
             <?php require_once('include/sidebar.php'); ?>

@@ -1,6 +1,6 @@
 <!-- Footer -->
 <link rel="stylesheet" href="/css/footer.css">
-<footer class="text-center text-lg-start text-muted">
+<footer class="text-center text-lg-start text-muted ">
 
 
   <!-- Section: Links  -->
@@ -12,7 +12,7 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-           SEVEN SHOP
+           Furniture Shop
           </h6>
           <p>
           Together with you to beautify the house!

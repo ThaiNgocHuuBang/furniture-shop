@@ -72,7 +72,7 @@
 }
 .form-control:focus  {
     box-shadow: none !important;
-    border-color: #F2C94C !important;
+    border-color: #f36f21 !important;
 
 }
 
@@ -136,7 +136,7 @@ a {
     color: black;
 }
 .text__yellow:hover{
-    color: #F2C94C;
+    color: #f36f21;
 }
 .navbar-nav button {
     border-radius: 20px;
@@ -153,7 +153,7 @@ a {
 }
 
 .btn__yellow:hover {
-    background-color: #F2C94C ;
+    background-color: #f36f21 ;
     box-shadow: none;
     color: black;
 }
@@ -185,7 +185,7 @@ a {
 }
 
 .btn__or {
-    background-color: #f55016;
+    background-color: #f36f21;
     color: white;
     font-size: 16px;
     border: 1px solid #e8e8e8 ;
@@ -193,13 +193,45 @@ a {
 }
 
 .btn__or:hover {
-    background-color: #f55216bd !important;
+    background-color: white !important;
+    border: 1px solid #f36f21 ;
     box-shadow: none;
-    color: white;
+    color:#f36f21;
 }
-.btn__yellow:focus, .btn__or:focus, .btn__pink:focus{
+.btn__white {
+    background-color: white;
+    color: #f36f21;
+    font-size: 16px;
+    border: 1px solid #f36f21 !important;
+    text-transform: inherit;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+}
+
+.btn__white:hover {
+    background-color: #f36f21 !important;
+    border: 1px solid white !important ;
+    box-shadow: none;
+    color:white;
+}
+.btn__submit{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black !important;
+    border-radius: 6px;
+}
+.btn__submit:hover{
+    background-color: #f36f21;
+    color: white;
+    border: 1px solid  #f36f21 !important;
+}
+.btn__yellow:focus, .btn__or:focus, .btn__pink:focus, .btn__white:focus, .btn__submit:focus{
     box-shadow: none !important;
 }
 .a__yellow{
-    color: #F2C94C !important;
+    color: #f36f21 !important;
+}
+.bg__gray{
+    /* background-color: #e5e5e5; */
+    background-color: white;
 }

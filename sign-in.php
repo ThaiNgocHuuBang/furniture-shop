@@ -87,7 +87,7 @@ include('include/header.php'); ?>
                     <a href="#" class="textYellow"> Forget Password?</a>
 
                       <div class="form-group text-center mt-4">
-                        <input type="submit" name="signin" class="btn btn_signin" value="Sign in">
+                        <input type="submit" name="signin" class="btn btn__or" value="Sign in">
                       </div>
 
                       <div class="text-center mt-4"> Not a Member Yet <a href="register.php" class="textYellow"> Register </a></div>

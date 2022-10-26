@@ -4,6 +4,6 @@
     border-radius:0 ;
 }
 .list-group .list-group-item:hover{
-    background-color: #F2C94C !important;
-    color: black !important;
+    background-color: #f36f21 !important;
+    color: white !important;
 }

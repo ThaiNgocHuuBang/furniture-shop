@@ -137,7 +137,7 @@ if(isset($_SESSION['email'])){
                 </div>
               </div>
               
-              <input type="submit" name="submit" class=" mt-3 btn btn__color" value="Submit">
+              <input type="submit" name="submit" class=" mt-3 btn btn__or" value="Submit">
                   
             </form>
         </div>

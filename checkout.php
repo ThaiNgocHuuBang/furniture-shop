@@ -123,7 +123,7 @@
                       </div>
 
                       <div class="form-group text-center mt-4">
-                          <input type="submit" name="checkout" class="btn btn-success btn-block" value="Place Order" id="border-less">
+                          <input type="submit" name="checkout" class="btn btn__or btn-block" value="Place Order" id="border-less">
                       </div>
                   </form>
                  </div>

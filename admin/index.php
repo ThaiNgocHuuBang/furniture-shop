@@ -102,7 +102,7 @@ if(isset($_SESSION['email'])){
                    $earning = $row['earn'];
                      
                  ?>
-                  <span style="font-size:24px;"><?php echo $earning; ?></span> PKR Earned
+                  <span style="font-size:24px;"><?php echo $earning; ?></span> $
                 </div>
               </div>
               <a class="card-footer text-white clearfix small z-1" href="#">

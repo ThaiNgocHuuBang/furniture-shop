@@ -4,7 +4,7 @@ if(!isset($_SESSION['email'])){
 }
 ?>
 
-<div class="container-fluid mt-2">
+<div class="container-fluid mt-2" style="margin-bottom: 100px;">
     <div class="row">
         <div class="col-md-3">
             <?php include("include/sidebar.php");?>

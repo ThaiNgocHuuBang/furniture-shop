@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>SEVEN SHOP</title>
+  <title>Furniture Shop</title>
 
   <link href="css/mdb.min.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -69,8 +69,8 @@
         <div class="container mt-5">
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
-              <h1 class="login-heading text-center mb-2">WELCOME </h1>
-              <h3 class="login-heading text-center mb-4">SEVEN SHOP</h3>
+              <h1 class="login-heading text-center mb-2">SIGN IN </h1>
+          
               <form method="post">
               <?php
               if(isset($error)){
@@ -95,7 +95,7 @@
                 </div>
 
                 
-                <input class="btn btn__color btn-block text-uppercase  mb-2" type="submit" value="Sign in" name="signin">
+                <input class="btn btn__or btn-block text-uppercase  mb-2" type="submit" value="Sign in" name="signin">
                 <div class="text-center">
                   <a class="small text__yellow" href="#">Forgot password?</a></div>
 

@@ -25,22 +25,24 @@
 
 }
 
-.nav-item .nav-link a:hover {
-    color: #f55016 !important;
+.nav-item .nav-link:hover {
+    color: #f36f21;
 }
 
 .nav-link .fa-shopping-cart:hover {
-    background-color: #F2C94C ;
+    background-color: #f36f21 ;
+    color: white;
 }
 
 .badge {
-    background-color: #F2C94C ;
+    background-color: #f36f21;
+    color: white !important; 
 }
 
 .navbar-toggler-icon {
-    color: black !important;
+    color:#f36f21 !important;
 }
 
 .navbar-toggler {
-    border-color: #F2C94C !important;
+    border-color: #f36f21 !important;
 }

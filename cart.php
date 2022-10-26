@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/css/cart.css">
 <?php include('include/header.php'); ?>
         
-        <div class="jumbotron b style="border-radius:0px"">
+        <div class="jumbotron b " style="border-radius:0px ">
             <h2 class="text-center mt-5">CART</h2>
         </div>
         
@@ -153,12 +153,12 @@
                   <div class="row">
                      <div class="col-md-5 col-6 text-left">
                        <a href="product.php">
-                        <input class="btn btn_continue" type="button"  value="Continue Shopping">
+                        <input class="btn btn__white" type="button"  value="Continue Shopping">
                         </a>
                      </div>
                      <div class="col-md-4 col-6 text-right">
                          <a href="checkout.php">
-                            <input type="button" name="proceed" value="Proceed checkout"  class="btn btn__pink">
+                            <input type="button" name="proceed" value="Proceed checkout"  class="btn btn__or">
                          </a>
                      </div>
                   </div>

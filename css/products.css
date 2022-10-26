@@ -2,22 +2,14 @@
     color: black;
 }
 .list-group .list-group-item:hover{
-    background-color: #F2C94C !important;
-    color: black !important;
+    background-color: #f36f21 !important;
+    color: white !important;
 }
 .input__search:focus{
-    border-color: #F2C94C !important;
+    border-color: #f36f21 !important;
     box-shadow: none !important;
 }
-.btn__submit{
-    color: black;
-    background-color: transparent;
-    border: 1px solid black !important;
-    border-radius: 6px;
-}
-.btn__submit:hover{
-    background-color: #F2C94C;
-}
+
 .btn__card {
     font-size: 16px;
     background-color: #efefef;
@@ -29,7 +21,7 @@
 
 }
 .btn__card:hover {
-    background-color: #F2C94C;
+    background-color: #f36f21;
     color: black;
 }
 
@@ -52,7 +44,7 @@
     color:  black !important;
 }
 .page-item.active .page-link{
-    background-color: #F2C94C !important ;
+    background-color: #f36f21 !important ;
     border-color: black !important;
     box-shadow: none !important;
    

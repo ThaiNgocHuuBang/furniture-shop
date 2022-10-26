@@ -141,7 +141,7 @@ a {
     color: black;
 }
 .text__yellow:hover{
-    color: #F2C94C;
+    color: #f36f21;
 }
 .navbar-nav button {
     border-radius: 20px;
@@ -158,7 +158,7 @@ a {
 }
 
 .btn__yellow:hover {
-    background-color: #F2C94C ;
+    background-color: #f36f21 ;
     box-shadow: none;
     color: black;
 }
@@ -202,6 +202,31 @@ a {
     box-shadow: none;
     color: white;
 }
-.btn__yellow:focus, .btn__or:focus, .btn__pink:focus{
+.btn__white {
+    background-color: white;
+    color: #f36f21;
+    font-size: 16px;
+    border: 1px solid #f36f21 !important;
+    text-transform: inherit;
+}
+
+.btn__white:hover {
+    background-color: #f36f21 !important;
+    border: 1px solid white !important ;
+    box-shadow: none;
+    color:white;
+}
+.btn__submit{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black !important;
+    border-radius: 6px;
+}
+.btn__submit:hover{
+    background-color: #f36f21;
+    color: white;
+    border: 1px solid  #f36f21 !important;
+}
+.btn__yellow:focus, .btn__or:focus, .btn__pink:focus, .btn__white:focus, .btn__submit:focus{
     box-shadow: none !important;
 }

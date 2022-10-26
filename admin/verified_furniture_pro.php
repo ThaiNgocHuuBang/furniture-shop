@@ -5,7 +5,7 @@
 
 ?>
 
-<div class="container-fluid mt-2">
+<div class="container-fluid mt-2" style="margin-bottom: 210px;" >
     <div class="row">
         <div class="col-md-3">
             <?php include("include/sidebar.php");?>
@@ -105,7 +105,7 @@
                                 
                                </td>
                                <td><?php echo $order_date;?></td>
-                               <td><a href="edit_furn_verify_pen.php?order_id=<?php echo $order_id; ?>"><button type="button" class="btn btn__color" style="font-size: 12px;"> Edit</button></a></td>
+                               <td><a href="edit_furn_verify_pen.php?order_id=<?php echo $order_id; ?>"><button type="button" class="btn btn__blue" style="font-size: 12px;"> Edit</button></a></td>
                             </tr>   
                            <?php 
                                   }

@@ -15,7 +15,7 @@ require_once('include/dbcon.php');
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>ADMIN SEVEN SHOP </title>
+  <title>ADMIN Furniture Shop </title>
 
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Custom styles for this template-->

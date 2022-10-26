@@ -159,7 +159,7 @@ if(isset($_SESSION['email'])){
                       }
                     } 
                   ?>
-              <input type="submit" name="update" class=" mt-3 btn btn__color" value="Update">
+              <input type="submit" name="update" class=" mt-3 btn btn__or" value="Update">
               <?php
                 }
                 ?>
@@ -169,6 +169,8 @@ if(isset($_SESSION['email'])){
      </div>
         
 
+
       <?php 
+      
  require_once('include/footer.php');
 ?>

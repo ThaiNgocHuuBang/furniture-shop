@@ -113,7 +113,7 @@ if(isset($_SESSION['email'])){
            </div>
 
               <div class="form-group text-center mt-4">
-                <input type="submit" name="update" class="btn btn__update" value="Update">
+                <input type="submit" name="update" class="btn btn__or" value="Update">
               </div>
 
           </form> 

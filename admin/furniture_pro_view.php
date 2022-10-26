@@ -115,11 +115,11 @@
                                    
                                    
                                    ?>
-                                    <a title="Edit Product" href="furniture_pro_edit.php?pid=<?php echo $pid;?> " class="btn btn-primary btn-sm">
+                                    <a title="Edit Product" href="furniture_pro_edit.php?pid=<?php echo $pid;?> " class="btn btn__blue btn-sm">
                                     <i class="fal fa-edit"></i>
                                     </a>
 
-                                    <a title="Delete Product" href="furniture_pro_view.php?del=<?php echo $pid;?>" class="btn btn-danger btn-sm">X </a>  
+                                    <a title="Delete Product" href="furniture_pro_view.php?del=<?php echo $pid;?>" class="btn btn__or btn-sm">X </a>  
                                  </td>
                              </tr>   
                            <?php 
