@@ -1,8 +1,8 @@
 <?php 
     $host      = "us-cdbr-east-06.cleardb.net";
-    $username  = "b34ebfae4a8a9e";
-    $passwrod  = "bdcf40f2";
-    $dbName    = "heroku_02e148eb84a4d20";
+    $username  = "bb32f4aa6815a3";
+    $passwrod  = "1f9adf40";
+    $dbName    = "heroku_2fa1556d4ea238e";
 
     $con = mysqli_connect($host,$username,$passwrod,$dbName);
     // Check connection
